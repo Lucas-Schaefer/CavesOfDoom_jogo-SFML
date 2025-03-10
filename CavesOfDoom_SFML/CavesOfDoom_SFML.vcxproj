@@ -1,0 +1,320 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>17.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{4d91fb42-7b1e-43ec-9e4f-afdb1ce63fa5}</ProjectGuid>
+    <RootNamespace>CavesOfDoomSFML</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>C:\Users\Lucas Schaefer\Documents\Tecnicas de Programacao\CavesOfDoom_SFML\SFML-2.5.1\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>C:\Users\Lucas Schaefer\Documents\Tecnicas de Programacao\CavesOfDoom_SFML\SFML-2.5.1\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>sfml-graphics-d.lib;sfml-window-d.lib;sfml-audio-d.lib;sfml-network-d.lib;sfml-system-d.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>C:\Users\Lucas Schaefer\Documents\Tecnicas de Programacao\CavesOfDoom_SFML\SFML-2.5.1\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>C:\Users\Lucas Schaefer\Documents\Tecnicas de Programacao\CavesOfDoom_SFML\SFML-2.5.1\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>sfml-graphics.lib;sfml-window.lib;sfml-audio.lib;sfml-network.lib;sfml-system.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="headers\Animador\Animacao.hpp" />
+    <ClInclude Include="headers\Animador\Imagem.hpp" />
+    <ClInclude Include="headers\Ente.hpp" />
+    <ClInclude Include="headers\Entidade\Entidade.hpp" />
+    <ClInclude Include="headers\Entidade\Item\Arma.hpp" />
+    <ClInclude Include="headers\Entidade\Item\Projetil.hpp" />
+    <ClInclude Include="headers\Entidade\Item\Vida.hpp" />
+    <ClInclude Include="headers\Entidade\Obstaculo\Caixa.hpp" />
+    <ClInclude Include="headers\Entidade\Obstaculo\Espinho.hpp" />
+    <ClInclude Include="headers\Entidade\Obstaculo\Obstaculo.hpp" />
+    <ClInclude Include="headers\Entidade\Obstaculo\Plataforma.hpp" />
+    <ClInclude Include="headers\Entidade\Obstaculo\PlataformaMovel.hpp" />
+    <ClInclude Include="headers\Entidade\Personagem\Inimigo\Demonio.hpp" />
+    <ClInclude Include="headers\Entidade\Personagem\Inimigo\Inimigo.hpp" />
+    <ClInclude Include="headers\Entidade\Personagem\Inimigo\Lobo.hpp" />
+    <ClInclude Include="headers\Entidade\Personagem\Inimigo\Orc.hpp" />
+    <ClInclude Include="headers\Entidade\Personagem\Jogador\Jogador.hpp" />
+    <ClInclude Include="headers\Entidade\Personagem\Nivel.hpp" />
+    <ClInclude Include="headers\Entidade\Personagem\Personagem.hpp" />
+    <ClInclude Include="headers\Estado\Estado.hpp" />
+    <ClInclude Include="headers\Estado\EstadoJogar.hpp" />
+    <ClInclude Include="headers\Estado\EstadoMenu.hpp" />
+    <ClInclude Include="headers\Fase\Fase.hpp" />
+    <ClInclude Include="headers\Fase\Fase1.hpp" />
+    <ClInclude Include="headers\Fase\Fase2.hpp" />
+    <ClInclude Include="headers\Fundo\Camada.hpp" />
+    <ClInclude Include="headers\Fundo\Fundo.hpp" />
+    <ClInclude Include="headers\Gerenciador\Camera.hpp" />
+    <ClInclude Include="headers\Gerenciador\GerenciadorArquivo.hpp" />
+    <ClInclude Include="headers\Gerenciador\GerenciadorColisao.hpp" />
+    <ClInclude Include="headers\Gerenciador\GerenciadorEstado.hpp" />
+    <ClInclude Include="headers\Gerenciador\GerenciadorEvento.hpp" />
+    <ClInclude Include="headers\Gerenciador\GerenciadorGrafico.hpp" />
+    <ClInclude Include="headers\IDs.hpp" />
+    <ClInclude Include="headers\Lista\Elemento.hpp" />
+    <ClInclude Include="headers\Lista\Lista.hpp" />
+    <ClInclude Include="headers\Lista\ListaEntidade.hpp" />
+    <ClInclude Include="headers\Lista\ListaObservador.hpp" />
+    <ClInclude Include="headers\Menu\Botao\Botao.hpp" />
+    <ClInclude Include="headers\Menu\Botao\BotaoTexto.hpp" />
+    <ClInclude Include="headers\Menu\Botao\Texto.hpp" />
+    <ClInclude Include="headers\Menu\Botao\TextoAnimado.hpp" />
+    <ClInclude Include="headers\Menu\Card.hpp" />
+    <ClInclude Include="headers\Menu\Menu.hpp" />
+    <ClInclude Include="headers\Menu\MenuCarregarJogo.hpp" />
+    <ClInclude Include="headers\Menu\MenuColocacao.hpp" />
+    <ClInclude Include="headers\Menu\MenuGameOver.hpp" />
+    <ClInclude Include="headers\Menu\MenuJogador.hpp" />
+    <ClInclude Include="headers\Menu\MenuPausa.hpp" />
+    <ClInclude Include="headers\Menu\MenuPrincipal.hpp" />
+    <ClInclude Include="headers\Menu\MenuSalvarJogada.hpp" />
+    <ClInclude Include="headers\Menu\MenuSelecaoFase.hpp" />
+    <ClInclude Include="headers\Observador\Observador.hpp" />
+    <ClInclude Include="headers\Observador\ObservadorFase.hpp" />
+    <ClInclude Include="headers\Observador\ObservadorJogador.hpp" />
+    <ClInclude Include="headers\Observador\ObservadorMenu.hpp" />
+    <ClInclude Include="headers\Principal.hpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="source\Animador\Animacao.cpp" />
+    <ClCompile Include="source\Animador\Imagem.cpp" />
+    <ClCompile Include="source\Ente.cpp" />
+    <ClCompile Include="source\Entidade\Entidade.cpp" />
+    <ClCompile Include="source\Entidade\Item\Arma.cpp" />
+    <ClCompile Include="source\Entidade\Item\Projetil.cpp" />
+    <ClCompile Include="source\Entidade\Item\Vida.cpp" />
+    <ClCompile Include="source\Entidade\Obstaculo\Caixa.cpp" />
+    <ClCompile Include="source\Entidade\Obstaculo\Espinho.cpp" />
+    <ClCompile Include="source\Entidade\Obstaculo\Obstaculo.cpp" />
+    <ClCompile Include="source\Entidade\Obstaculo\Plataforma.cpp" />
+    <ClCompile Include="source\Entidade\Obstaculo\PlataformaMovel.cpp" />
+    <ClCompile Include="source\Entidade\Personagem\Inimigo\Demonio.cpp" />
+    <ClCompile Include="source\Entidade\Personagem\Inimigo\Inimigo.cpp" />
+    <ClCompile Include="source\Entidade\Personagem\Inimigo\Lobo.cpp" />
+    <ClCompile Include="source\Entidade\Personagem\Inimigo\Orc.cpp" />
+    <ClCompile Include="source\Entidade\Personagem\Jogador\Jogador.cpp" />
+    <ClCompile Include="source\Entidade\Personagem\Nivel.cpp" />
+    <ClCompile Include="source\Entidade\Personagem\Personagem.cpp" />
+    <ClCompile Include="source\Estado\Estado.cpp" />
+    <ClCompile Include="source\Estado\EstadoJogar.cpp" />
+    <ClCompile Include="source\Estado\EstadoMenu.cpp" />
+    <ClCompile Include="source\Fase\Fase.cpp" />
+    <ClCompile Include="source\Fase\Fase1.cpp" />
+    <ClCompile Include="source\Fase\Fase2.cpp" />
+    <ClCompile Include="source\Fundo\Camada.cpp" />
+    <ClCompile Include="source\Fundo\Fundo.cpp" />
+    <ClCompile Include="source\Gerenciador\Camera.cpp" />
+    <ClCompile Include="source\Gerenciador\GerenciadorArquivo.cpp" />
+    <ClCompile Include="source\Gerenciador\GerenciadorColisao.cpp" />
+    <ClCompile Include="source\Gerenciador\GerenciadorEstado.cpp" />
+    <ClCompile Include="source\Gerenciador\GerenciadorEvento.cpp" />
+    <ClCompile Include="source\Gerenciador\GerenciadorGrafico.cpp" />
+    <ClCompile Include="source\Lista\ListaEntidade.cpp" />
+    <ClCompile Include="source\Lista\ListaObservador.cpp" />
+    <ClCompile Include="source\main.cpp" />
+    <ClCompile Include="source\Menu\Botao\Botao.cpp" />
+    <ClCompile Include="source\Menu\Botao\BotaoTexto.cpp" />
+    <ClCompile Include="source\Menu\Botao\Texto.cpp" />
+    <ClCompile Include="source\Menu\Botao\TextoAnimacao.cpp" />
+    <ClCompile Include="source\Menu\Card.cpp" />
+    <ClCompile Include="source\Menu\Menu.cpp" />
+    <ClCompile Include="source\Menu\MenuCarregarJogo.cpp" />
+    <ClCompile Include="source\Menu\MenuColocacao.cpp" />
+    <ClCompile Include="source\Menu\MenuGameOver.cpp" />
+    <ClCompile Include="source\Menu\MenuJogador.cpp" />
+    <ClCompile Include="source\Menu\MenuPausa.cpp" />
+    <ClCompile Include="source\Menu\MenuPrincipal.cpp" />
+    <ClCompile Include="source\Menu\MenuSalvarJogada.cpp" />
+    <ClCompile Include="source\Menu\MenuSelecaoFase.cpp" />
+    <ClCompile Include="source\Observador\Observador.cpp" />
+    <ClCompile Include="source\Observador\ObservadorFase.cpp" />
+    <ClCompile Include="source\Observador\ObservadorJogador.cpp" />
+    <ClCompile Include="source\Observador\ObservadorMenu.cpp" />
+    <ClCompile Include="source\Principal.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="imagens\Demonio\AttackDemonio.png" />
+    <Image Include="imagens\Demonio\DeathDemonio.png" />
+    <Image Include="imagens\Demonio\HitDemonio.png" />
+    <Image Include="imagens\Demonio\RunDemonio.png" />
+    <Image Include="imagens\Fase1\fase1background1.png" />
+    <Image Include="imagens\Fase1\fase1background2.png" />
+    <Image Include="imagens\Fase1\fase1background3.png" />
+    <Image Include="imagens\Fase1\fase1background4.png" />
+    <Image Include="imagens\Fase2\fase2background1.png" />
+    <Image Include="imagens\Fase2\fase2background2.png" />
+    <Image Include="imagens\Fase2\fase2background3.png" />
+    <Image Include="imagens\Fase2\fase2background4.png" />
+    <Image Include="imagens\Itens\bau.png" />
+    <Image Include="imagens\Itens\Projetil.png" />
+    <Image Include="imagens\Itens\vida.png" />
+    <Image Include="imagens\Jogador\AttackJogador.png" />
+    <Image Include="imagens\Jogador\AttackJogador2.png" />
+    <Image Include="imagens\Jogador\BarraVida.png" />
+    <Image Include="imagens\Jogador\BarraXP.png" />
+    <Image Include="imagens\Jogador\DeathJogador.png" />
+    <Image Include="imagens\Jogador\DeathJogador2.png" />
+    <Image Include="imagens\Jogador\FallJogador.png" />
+    <Image Include="imagens\Jogador\FallJogador2.png" />
+    <Image Include="imagens\Jogador\HitJogador.png" />
+    <Image Include="imagens\Jogador\HitJogador2.png" />
+    <Image Include="imagens\Jogador\JumpJogador.png" />
+    <Image Include="imagens\Jogador\JumpJogador2.png" />
+    <Image Include="imagens\Jogador\RunJogador.png" />
+    <Image Include="imagens\Jogador\RunJogador2.png" />
+    <Image Include="imagens\Jogador\StoppedJogador.png" />
+    <Image Include="imagens\Jogador\StoppedJogador2.png" />
+    <Image Include="imagens\Jogador\VidaJogador.png" />
+    <Image Include="imagens\Jogador\XPJogador.png" />
+    <Image Include="imagens\Lobo\AttackLobo.png" />
+    <Image Include="imagens\Lobo\DeathLobo.png" />
+    <Image Include="imagens\Lobo\RunLobo.png" />
+    <Image Include="imagens\Lobo\StoppedLobo.png" />
+    <Image Include="imagens\Menu\Background1.png" />
+    <Image Include="imagens\Menu\BackGround2.png" />
+    <Image Include="imagens\Menu\Background3.png" />
+    <Image Include="imagens\Menu\Background4.png" />
+    <Image Include="imagens\Menu\Background5.png" />
+    <Image Include="imagens\Menu\Background6.png" />
+    <Image Include="imagens\Menu\Background7.png" />
+    <Image Include="imagens\Menu\Background8.png" />
+    <Image Include="imagens\Menu\caixaTexto.png" />
+    <Image Include="imagens\Menu\CardVazio.png" />
+    <Image Include="imagens\Obstaculos\caixa.png" />
+    <Image Include="imagens\Obstaculos\Espinho.png" />
+    <Image Include="imagens\Obstaculos\Flutuante1 - Copia.png" />
+    <Image Include="imagens\Obstaculos\Flutuante1.png" />
+    <Image Include="imagens\Obstaculos\Flutuante2.png" />
+    <Image Include="imagens\Obstaculos\Parede.png" />
+    <Image Include="imagens\Obstaculos\ParedeFlutuante.png" />
+    <Image Include="imagens\Obstaculos\Plataforma.png" />
+    <Image Include="imagens\Obstaculos\PlataformaMadeira.png" />
+    <Image Include="imagens\Orc\AttackOrc.png" />
+    <Image Include="imagens\Orc\DeathOrc.png" />
+    <Image Include="imagens\Orc\RunOrc.png" />
+    <Image Include="imagens\Orc\StoppedOrc.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Font Include="fonte\menu.ttf" />
+    <Font Include="fonte\menuColocacao.ttf" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

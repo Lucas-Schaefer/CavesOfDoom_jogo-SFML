@@ -1,0 +1,637 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Arquivos de Origem">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Arquivos de Cabeçalho">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Arquivos de Recurso">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Arquivos de Cabeçalho\Animador">
+      <UniqueIdentifier>{79ca59b7-91fd-45c6-ae77-5ad3a627453b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Arquivos de Cabeçalho\Entidade">
+      <UniqueIdentifier>{82c0f04d-f847-4aad-a2e1-b7138bdec38a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Arquivos de Cabeçalho\Estado">
+      <UniqueIdentifier>{d433de8c-effe-4fab-89b1-f6e67f31dd95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Arquivos de Cabeçalho\Fase">
+      <UniqueIdentifier>{541d1286-6a2b-4590-a171-08c829aa8743}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Arquivos de Cabeçalho\Fundo">
+      <UniqueIdentifier>{d6af8530-118c-4ffc-b981-7dd1299c5679}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Arquivos de Cabeçalho\Gerenciador">
+      <UniqueIdentifier>{a0c1b77f-a52d-4603-be1c-01d3a0c591cb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Arquivos de Cabeçalho\Lista">
+      <UniqueIdentifier>{c300074f-001a-459b-aa39-6d5568e44bc6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Arquivos de Cabeçalho\Menu">
+      <UniqueIdentifier>{569eab04-4846-4a22-ad51-4f41d708e214}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Arquivos de Cabeçalho\Observador">
+      <UniqueIdentifier>{5051a000-8527-47f2-ad30-c8c20bce3f6c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Arquivos de Cabeçalho\Entidade\Obstaculo">
+      <UniqueIdentifier>{e88b5dd9-c3bb-4c66-af50-5ce6577a0424}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Arquivos de Cabeçalho\Entidade\Personagem">
+      <UniqueIdentifier>{87c0b5b7-6e23-492e-8902-8b2968583f44}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Arquivos de Cabeçalho\Entidade\Personagem\Inimigo">
+      <UniqueIdentifier>{8145a8cc-71eb-4c7c-9dcd-2dd1c5231b22}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Arquivos de Cabeçalho\Entidade\Personagem\Jogador">
+      <UniqueIdentifier>{70cb871f-9267-4392-ab66-7a4a6423b831}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Arquivos de Cabeçalho\Entidade\Item">
+      <UniqueIdentifier>{828d79cc-5931-43f7-9964-6ee79e10182e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Arquivos de Cabeçalho\Menu\Botao">
+      <UniqueIdentifier>{d543e88e-eddd-4497-834b-75c0f2320e76}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Arquivos de Origem\Animador">
+      <UniqueIdentifier>{7e6422d6-d5a7-46ed-9aa7-b915eb715139}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Arquivos de Origem\Entidade">
+      <UniqueIdentifier>{a56dd5b4-7834-4d0d-aad1-1db05a1a426c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Arquivos de Origem\Estado">
+      <UniqueIdentifier>{438bf04d-4ba7-4bbc-a25c-0ec3317cb359}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Arquivos de Origem\Fase">
+      <UniqueIdentifier>{1310ed36-8e25-4f5e-b817-79f4e5582919}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Arquivos de Origem\Fundo">
+      <UniqueIdentifier>{d194d438-39ae-4aa3-b2e8-bee885eabe8f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Arquivos de Origem\Gerenciador">
+      <UniqueIdentifier>{a3342482-12ba-4401-8dc8-e9fc48fcb128}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Arquivos de Origem\Lista">
+      <UniqueIdentifier>{4915076e-aa30-4124-8ea0-8ab284b802ab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Arquivos de Origem\Menu">
+      <UniqueIdentifier>{a33de8af-2f22-41cf-ab5f-eebad2b3f33f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Arquivos de Origem\Observador">
+      <UniqueIdentifier>{5e4657e1-d9dc-4090-ab29-2efed1e357d8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Arquivos de Origem\Entidade\Item">
+      <UniqueIdentifier>{1c7d9fa1-cc4b-4ade-9c68-4037ad7471d8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Arquivos de Origem\Entidade\Personagem">
+      <UniqueIdentifier>{f01c778c-10d4-4faa-8fcc-77540a84c513}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Arquivos de Origem\Entidade\Obstaculo">
+      <UniqueIdentifier>{f0071bd3-ca10-4976-ad90-7bcfaf57a7d6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Arquivos de Origem\Entidade\Personagem\Inimigo">
+      <UniqueIdentifier>{2fcbaa9c-edfd-4708-8aeb-b1b75be76b17}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Arquivos de Origem\Entidade\Personagem\Jogador">
+      <UniqueIdentifier>{00343f56-8cc6-4a50-90c4-174f7849745f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Arquivos de Origem\Menu\Botao">
+      <UniqueIdentifier>{a528196f-2216-407c-94a9-c1b97307fd1b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="headers\Ente.hpp">
+      <Filter>Arquivos de Cabeçalho</Filter>
+    </ClInclude>
+    <ClInclude Include="headers\IDs.hpp">
+      <Filter>Arquivos de Cabeçalho</Filter>
+    </ClInclude>
+    <ClInclude Include="headers\Principal.hpp">
+      <Filter>Arquivos de Cabeçalho</Filter>
+    </ClInclude>
+    <ClInclude Include="headers\Animador\Animacao.hpp">
+      <Filter>Arquivos de Cabeçalho\Animador</Filter>
+    </ClInclude>
+    <ClInclude Include="headers\Animador\Imagem.hpp">
+      <Filter>Arquivos de Cabeçalho\Animador</Filter>
+    </ClInclude>
+    <ClInclude Include="headers\Entidade\Entidade.hpp">
+      <Filter>Arquivos de Cabeçalho\Entidade</Filter>
+    </ClInclude>
+    <ClInclude Include="headers\Entidade\Item\Arma.hpp">
+      <Filter>Arquivos de Cabeçalho\Entidade\Item</Filter>
+    </ClInclude>
+    <ClInclude Include="headers\Entidade\Item\Projetil.hpp">
+      <Filter>Arquivos de Cabeçalho\Entidade\Item</Filter>
+    </ClInclude>
+    <ClInclude Include="headers\Entidade\Item\Vida.hpp">
+      <Filter>Arquivos de Cabeçalho\Entidade\Item</Filter>
+    </ClInclude>
+    <ClInclude Include="headers\Entidade\Personagem\Inimigo\Demonio.hpp">
+      <Filter>Arquivos de Cabeçalho\Entidade\Personagem\Inimigo</Filter>
+    </ClInclude>
+    <ClInclude Include="headers\Entidade\Personagem\Inimigo\Inimigo.hpp">
+      <Filter>Arquivos de Cabeçalho\Entidade\Personagem\Inimigo</Filter>
+    </ClInclude>
+    <ClInclude Include="headers\Entidade\Personagem\Inimigo\Lobo.hpp">
+      <Filter>Arquivos de Cabeçalho\Entidade\Personagem\Inimigo</Filter>
+    </ClInclude>
+    <ClInclude Include="headers\Entidade\Personagem\Inimigo\Orc.hpp">
+      <Filter>Arquivos de Cabeçalho\Entidade\Personagem\Inimigo</Filter>
+    </ClInclude>
+    <ClInclude Include="headers\Entidade\Personagem\Jogador\Jogador.hpp">
+      <Filter>Arquivos de Cabeçalho\Entidade\Personagem\Jogador</Filter>
+    </ClInclude>
+    <ClInclude Include="headers\Entidade\Personagem\Nivel.hpp">
+      <Filter>Arquivos de Cabeçalho\Entidade\Personagem</Filter>
+    </ClInclude>
+    <ClInclude Include="headers\Entidade\Personagem\Personagem.hpp">
+      <Filter>Arquivos de Cabeçalho\Entidade\Personagem</Filter>
+    </ClInclude>
+    <ClInclude Include="headers\Entidade\Obstaculo\Caixa.hpp">
+      <Filter>Arquivos de Cabeçalho\Entidade\Obstaculo</Filter>
+    </ClInclude>
+    <ClInclude Include="headers\Entidade\Obstaculo\Espinho.hpp">
+      <Filter>Arquivos de Cabeçalho\Entidade\Obstaculo</Filter>
+    </ClInclude>
+    <ClInclude Include="headers\Entidade\Obstaculo\Obstaculo.hpp">
+      <Filter>Arquivos de Cabeçalho\Entidade\Obstaculo</Filter>
+    </ClInclude>
+    <ClInclude Include="headers\Entidade\Obstaculo\Plataforma.hpp">
+      <Filter>Arquivos de Cabeçalho\Entidade\Obstaculo</Filter>
+    </ClInclude>
+    <ClInclude Include="headers\Entidade\Obstaculo\PlataformaMovel.hpp">
+      <Filter>Arquivos de Cabeçalho\Entidade\Obstaculo</Filter>
+    </ClInclude>
+    <ClInclude Include="headers\Estado\Estado.hpp">
+      <Filter>Arquivos de Cabeçalho\Estado</Filter>
+    </ClInclude>
+    <ClInclude Include="headers\Estado\EstadoJogar.hpp">
+      <Filter>Arquivos de Cabeçalho\Estado</Filter>
+    </ClInclude>
+    <ClInclude Include="headers\Estado\EstadoMenu.hpp">
+      <Filter>Arquivos de Cabeçalho\Estado</Filter>
+    </ClInclude>
+    <ClInclude Include="headers\Fase\Fase.hpp">
+      <Filter>Arquivos de Cabeçalho\Fase</Filter>
+    </ClInclude>
+    <ClInclude Include="headers\Fase\Fase1.hpp">
+      <Filter>Arquivos de Cabeçalho\Fase</Filter>
+    </ClInclude>
+    <ClInclude Include="headers\Fase\Fase2.hpp">
+      <Filter>Arquivos de Cabeçalho\Fase</Filter>
+    </ClInclude>
+    <ClInclude Include="headers\Fundo\Camada.hpp">
+      <Filter>Arquivos de Cabeçalho\Fundo</Filter>
+    </ClInclude>
+    <ClInclude Include="headers\Fundo\Fundo.hpp">
+      <Filter>Arquivos de Cabeçalho\Fundo</Filter>
+    </ClInclude>
+    <ClInclude Include="headers\Gerenciador\Camera.hpp">
+      <Filter>Arquivos de Cabeçalho\Gerenciador</Filter>
+    </ClInclude>
+    <ClInclude Include="headers\Gerenciador\GerenciadorArquivo.hpp">
+      <Filter>Arquivos de Cabeçalho\Gerenciador</Filter>
+    </ClInclude>
+    <ClInclude Include="headers\Gerenciador\GerenciadorColisao.hpp">
+      <Filter>Arquivos de Cabeçalho\Gerenciador</Filter>
+    </ClInclude>
+    <ClInclude Include="headers\Gerenciador\GerenciadorEstado.hpp">
+      <Filter>Arquivos de Cabeçalho\Gerenciador</Filter>
+    </ClInclude>
+    <ClInclude Include="headers\Gerenciador\GerenciadorEvento.hpp">
+      <Filter>Arquivos de Cabeçalho\Gerenciador</Filter>
+    </ClInclude>
+    <ClInclude Include="headers\Gerenciador\GerenciadorGrafico.hpp">
+      <Filter>Arquivos de Cabeçalho\Gerenciador</Filter>
+    </ClInclude>
+    <ClInclude Include="headers\Lista\Elemento.hpp">
+      <Filter>Arquivos de Cabeçalho\Lista</Filter>
+    </ClInclude>
+    <ClInclude Include="headers\Lista\Lista.hpp">
+      <Filter>Arquivos de Cabeçalho\Lista</Filter>
+    </ClInclude>
+    <ClInclude Include="headers\Lista\ListaEntidade.hpp">
+      <Filter>Arquivos de Cabeçalho\Lista</Filter>
+    </ClInclude>
+    <ClInclude Include="headers\Lista\ListaObservador.hpp">
+      <Filter>Arquivos de Cabeçalho\Lista</Filter>
+    </ClInclude>
+    <ClInclude Include="headers\Menu\Botao\Botao.hpp">
+      <Filter>Arquivos de Cabeçalho\Menu\Botao</Filter>
+    </ClInclude>
+    <ClInclude Include="headers\Menu\Botao\BotaoTexto.hpp">
+      <Filter>Arquivos de Cabeçalho\Menu\Botao</Filter>
+    </ClInclude>
+    <ClInclude Include="headers\Menu\Botao\Texto.hpp">
+      <Filter>Arquivos de Cabeçalho\Menu\Botao</Filter>
+    </ClInclude>
+    <ClInclude Include="headers\Menu\Botao\TextoAnimado.hpp">
+      <Filter>Arquivos de Cabeçalho\Menu\Botao</Filter>
+    </ClInclude>
+    <ClInclude Include="headers\Menu\Card.hpp">
+      <Filter>Arquivos de Cabeçalho\Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="headers\Menu\Menu.hpp">
+      <Filter>Arquivos de Cabeçalho\Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="headers\Menu\MenuCarregarJogo.hpp">
+      <Filter>Arquivos de Cabeçalho\Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="headers\Menu\MenuColocacao.hpp">
+      <Filter>Arquivos de Cabeçalho\Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="headers\Menu\MenuGameOver.hpp">
+      <Filter>Arquivos de Cabeçalho\Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="headers\Menu\MenuJogador.hpp">
+      <Filter>Arquivos de Cabeçalho\Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="headers\Menu\MenuPausa.hpp">
+      <Filter>Arquivos de Cabeçalho\Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="headers\Menu\MenuPrincipal.hpp">
+      <Filter>Arquivos de Cabeçalho\Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="headers\Menu\MenuSalvarJogada.hpp">
+      <Filter>Arquivos de Cabeçalho\Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="headers\Menu\MenuSelecaoFase.hpp">
+      <Filter>Arquivos de Cabeçalho\Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="headers\Observador\Observador.hpp">
+      <Filter>Arquivos de Cabeçalho\Observador</Filter>
+    </ClInclude>
+    <ClInclude Include="headers\Observador\ObservadorFase.hpp">
+      <Filter>Arquivos de Cabeçalho\Observador</Filter>
+    </ClInclude>
+    <ClInclude Include="headers\Observador\ObservadorJogador.hpp">
+      <Filter>Arquivos de Cabeçalho\Observador</Filter>
+    </ClInclude>
+    <ClInclude Include="headers\Observador\ObservadorMenu.hpp">
+      <Filter>Arquivos de Cabeçalho\Observador</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="source\Ente.cpp">
+      <Filter>Arquivos de Origem</Filter>
+    </ClCompile>
+    <ClCompile Include="source\main.cpp">
+      <Filter>Arquivos de Origem</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Principal.cpp">
+      <Filter>Arquivos de Origem</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Animador\Animacao.cpp">
+      <Filter>Arquivos de Origem\Animador</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Animador\Imagem.cpp">
+      <Filter>Arquivos de Origem\Animador</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Entidade\Entidade.cpp">
+      <Filter>Arquivos de Origem\Entidade</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Entidade\Item\Arma.cpp">
+      <Filter>Arquivos de Origem\Entidade\Item</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Entidade\Item\Projetil.cpp">
+      <Filter>Arquivos de Origem\Entidade\Item</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Entidade\Item\Vida.cpp">
+      <Filter>Arquivos de Origem\Entidade\Item</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Entidade\Obstaculo\Caixa.cpp">
+      <Filter>Arquivos de Origem\Entidade\Obstaculo</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Entidade\Obstaculo\Espinho.cpp">
+      <Filter>Arquivos de Origem\Entidade\Obstaculo</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Entidade\Obstaculo\Obstaculo.cpp">
+      <Filter>Arquivos de Origem\Entidade\Obstaculo</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Entidade\Obstaculo\Plataforma.cpp">
+      <Filter>Arquivos de Origem\Entidade\Obstaculo</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Entidade\Obstaculo\PlataformaMovel.cpp">
+      <Filter>Arquivos de Origem\Entidade\Obstaculo</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Entidade\Personagem\Nivel.cpp">
+      <Filter>Arquivos de Origem\Entidade\Personagem</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Entidade\Personagem\Personagem.cpp">
+      <Filter>Arquivos de Origem\Entidade\Personagem</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Entidade\Personagem\Inimigo\Demonio.cpp">
+      <Filter>Arquivos de Origem\Entidade\Personagem\Inimigo</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Entidade\Personagem\Inimigo\Inimigo.cpp">
+      <Filter>Arquivos de Origem\Entidade\Personagem\Inimigo</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Entidade\Personagem\Inimigo\Lobo.cpp">
+      <Filter>Arquivos de Origem\Entidade\Personagem\Inimigo</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Entidade\Personagem\Inimigo\Orc.cpp">
+      <Filter>Arquivos de Origem\Entidade\Personagem\Inimigo</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Entidade\Personagem\Jogador\Jogador.cpp">
+      <Filter>Arquivos de Origem\Entidade\Personagem\Jogador</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Estado\Estado.cpp">
+      <Filter>Arquivos de Origem\Estado</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Estado\EstadoJogar.cpp">
+      <Filter>Arquivos de Origem\Estado</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Estado\EstadoMenu.cpp">
+      <Filter>Arquivos de Origem\Estado</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Fase\Fase.cpp">
+      <Filter>Arquivos de Origem\Fase</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Fase\Fase1.cpp">
+      <Filter>Arquivos de Origem\Fase</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Fase\Fase2.cpp">
+      <Filter>Arquivos de Origem\Fase</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Fundo\Camada.cpp">
+      <Filter>Arquivos de Origem\Fundo</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Fundo\Fundo.cpp">
+      <Filter>Arquivos de Origem\Fundo</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Gerenciador\Camera.cpp">
+      <Filter>Arquivos de Origem\Gerenciador</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Gerenciador\GerenciadorArquivo.cpp">
+      <Filter>Arquivos de Origem\Gerenciador</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Gerenciador\GerenciadorColisao.cpp">
+      <Filter>Arquivos de Origem\Gerenciador</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Gerenciador\GerenciadorEstado.cpp">
+      <Filter>Arquivos de Origem\Gerenciador</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Gerenciador\GerenciadorEvento.cpp">
+      <Filter>Arquivos de Origem\Gerenciador</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Gerenciador\GerenciadorGrafico.cpp">
+      <Filter>Arquivos de Origem\Gerenciador</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Lista\ListaEntidade.cpp">
+      <Filter>Arquivos de Origem\Lista</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Lista\ListaObservador.cpp">
+      <Filter>Arquivos de Origem\Lista</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Menu\Botao\Botao.cpp">
+      <Filter>Arquivos de Origem\Menu\Botao</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Menu\Botao\BotaoTexto.cpp">
+      <Filter>Arquivos de Origem\Menu\Botao</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Menu\Botao\Texto.cpp">
+      <Filter>Arquivos de Origem\Menu\Botao</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Menu\Botao\TextoAnimacao.cpp">
+      <Filter>Arquivos de Origem\Menu\Botao</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Menu\Card.cpp">
+      <Filter>Arquivos de Origem\Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Menu\Menu.cpp">
+      <Filter>Arquivos de Origem\Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Menu\MenuCarregarJogo.cpp">
+      <Filter>Arquivos de Origem\Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Menu\MenuColocacao.cpp">
+      <Filter>Arquivos de Origem\Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Menu\MenuGameOver.cpp">
+      <Filter>Arquivos de Origem\Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Menu\MenuJogador.cpp">
+      <Filter>Arquivos de Origem\Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Menu\MenuPausa.cpp">
+      <Filter>Arquivos de Origem\Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Menu\MenuPrincipal.cpp">
+      <Filter>Arquivos de Origem\Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Menu\MenuSalvarJogada.cpp">
+      <Filter>Arquivos de Origem\Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Menu\MenuSelecaoFase.cpp">
+      <Filter>Arquivos de Origem\Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Observador\Observador.cpp">
+      <Filter>Arquivos de Origem\Observador</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Observador\ObservadorFase.cpp">
+      <Filter>Arquivos de Origem\Observador</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Observador\ObservadorJogador.cpp">
+      <Filter>Arquivos de Origem\Observador</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Observador\ObservadorMenu.cpp">
+      <Filter>Arquivos de Origem\Observador</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="imagens\Demonio\AttackDemonio.png">
+      <Filter>Arquivos de Recurso</Filter>
+    </Image>
+    <Image Include="imagens\Demonio\DeathDemonio.png">
+      <Filter>Arquivos de Recurso</Filter>
+    </Image>
+    <Image Include="imagens\Demonio\HitDemonio.png">
+      <Filter>Arquivos de Recurso</Filter>
+    </Image>
+    <Image Include="imagens\Demonio\RunDemonio.png">
+      <Filter>Arquivos de Recurso</Filter>
+    </Image>
+    <Image Include="imagens\Fase1\fase1background1.png">
+      <Filter>Arquivos de Recurso</Filter>
+    </Image>
+    <Image Include="imagens\Fase1\fase1background2.png">
+      <Filter>Arquivos de Recurso</Filter>
+    </Image>
+    <Image Include="imagens\Fase1\fase1background3.png">
+      <Filter>Arquivos de Recurso</Filter>
+    </Image>
+    <Image Include="imagens\Fase1\fase1background4.png">
+      <Filter>Arquivos de Recurso</Filter>
+    </Image>
+    <Image Include="imagens\Fase2\fase2background1.png">
+      <Filter>Arquivos de Recurso</Filter>
+    </Image>
+    <Image Include="imagens\Fase2\fase2background2.png">
+      <Filter>Arquivos de Recurso</Filter>
+    </Image>
+    <Image Include="imagens\Fase2\fase2background3.png">
+      <Filter>Arquivos de Recurso</Filter>
+    </Image>
+    <Image Include="imagens\Fase2\fase2background4.png">
+      <Filter>Arquivos de Recurso</Filter>
+    </Image>
+    <Image Include="imagens\Itens\bau.png">
+      <Filter>Arquivos de Recurso</Filter>
+    </Image>
+    <Image Include="imagens\Itens\Projetil.png">
+      <Filter>Arquivos de Recurso</Filter>
+    </Image>
+    <Image Include="imagens\Itens\vida.png">
+      <Filter>Arquivos de Recurso</Filter>
+    </Image>
+    <Image Include="imagens\Jogador\AttackJogador.png">
+      <Filter>Arquivos de Recurso</Filter>
+    </Image>
+    <Image Include="imagens\Jogador\AttackJogador2.png">
+      <Filter>Arquivos de Recurso</Filter>
+    </Image>
+    <Image Include="imagens\Jogador\BarraVida.png">
+      <Filter>Arquivos de Recurso</Filter>
+    </Image>
+    <Image Include="imagens\Jogador\BarraXP.png">
+      <Filter>Arquivos de Recurso</Filter>
+    </Image>
+    <Image Include="imagens\Jogador\DeathJogador.png">
+      <Filter>Arquivos de Recurso</Filter>
+    </Image>
+    <Image Include="imagens\Jogador\DeathJogador2.png">
+      <Filter>Arquivos de Recurso</Filter>
+    </Image>
+    <Image Include="imagens\Jogador\FallJogador.png">
+      <Filter>Arquivos de Recurso</Filter>
+    </Image>
+    <Image Include="imagens\Jogador\FallJogador2.png">
+      <Filter>Arquivos de Recurso</Filter>
+    </Image>
+    <Image Include="imagens\Jogador\HitJogador.png">
+      <Filter>Arquivos de Recurso</Filter>
+    </Image>
+    <Image Include="imagens\Jogador\HitJogador2.png">
+      <Filter>Arquivos de Recurso</Filter>
+    </Image>
+    <Image Include="imagens\Jogador\JumpJogador.png">
+      <Filter>Arquivos de Recurso</Filter>
+    </Image>
+    <Image Include="imagens\Jogador\JumpJogador2.png">
+      <Filter>Arquivos de Recurso</Filter>
+    </Image>
+    <Image Include="imagens\Jogador\RunJogador.png">
+      <Filter>Arquivos de Recurso</Filter>
+    </Image>
+    <Image Include="imagens\Jogador\RunJogador2.png">
+      <Filter>Arquivos de Recurso</Filter>
+    </Image>
+    <Image Include="imagens\Jogador\StoppedJogador.png">
+      <Filter>Arquivos de Recurso</Filter>
+    </Image>
+    <Image Include="imagens\Jogador\StoppedJogador2.png">
+      <Filter>Arquivos de Recurso</Filter>
+    </Image>
+    <Image Include="imagens\Jogador\VidaJogador.png">
+      <Filter>Arquivos de Recurso</Filter>
+    </Image>
+    <Image Include="imagens\Jogador\XPJogador.png">
+      <Filter>Arquivos de Recurso</Filter>
+    </Image>
+    <Image Include="imagens\Lobo\AttackLobo.png">
+      <Filter>Arquivos de Recurso</Filter>
+    </Image>
+    <Image Include="imagens\Lobo\DeathLobo.png">
+      <Filter>Arquivos de Recurso</Filter>
+    </Image>
+    <Image Include="imagens\Lobo\RunLobo.png">
+      <Filter>Arquivos de Recurso</Filter>
+    </Image>
+    <Image Include="imagens\Lobo\StoppedLobo.png">
+      <Filter>Arquivos de Recurso</Filter>
+    </Image>
+    <Image Include="imagens\Menu\Background1.png">
+      <Filter>Arquivos de Recurso</Filter>
+    </Image>
+    <Image Include="imagens\Menu\BackGround2.png">
+      <Filter>Arquivos de Recurso</Filter>
+    </Image>
+    <Image Include="imagens\Menu\Background3.png">
+      <Filter>Arquivos de Recurso</Filter>
+    </Image>
+    <Image Include="imagens\Menu\Background4.png">
+      <Filter>Arquivos de Recurso</Filter>
+    </Image>
+    <Image Include="imagens\Menu\Background5.png">
+      <Filter>Arquivos de Recurso</Filter>
+    </Image>
+    <Image Include="imagens\Menu\Background6.png">
+      <Filter>Arquivos de Recurso</Filter>
+    </Image>
+    <Image Include="imagens\Menu\Background7.png">
+      <Filter>Arquivos de Recurso</Filter>
+    </Image>
+    <Image Include="imagens\Menu\Background8.png">
+      <Filter>Arquivos de Recurso</Filter>
+    </Image>
+    <Image Include="imagens\Menu\caixaTexto.png">
+      <Filter>Arquivos de Recurso</Filter>
+    </Image>
+    <Image Include="imagens\Menu\CardVazio.png">
+      <Filter>Arquivos de Recurso</Filter>
+    </Image>
+    <Image Include="imagens\Obstaculos\caixa.png">
+      <Filter>Arquivos de Recurso</Filter>
+    </Image>
+    <Image Include="imagens\Obstaculos\Espinho.png">
+      <Filter>Arquivos de Recurso</Filter>
+    </Image>
+    <Image Include="imagens\Obstaculos\Flutuante1 - Copia.png">
+      <Filter>Arquivos de Recurso</Filter>
+    </Image>
+    <Image Include="imagens\Obstaculos\Flutuante1.png">
+      <Filter>Arquivos de Recurso</Filter>
+    </Image>
+    <Image Include="imagens\Obstaculos\Flutuante2.png">
+      <Filter>Arquivos de Recurso</Filter>
+    </Image>
+    <Image Include="imagens\Obstaculos\Parede.png">
+      <Filter>Arquivos de Recurso</Filter>
+    </Image>
+    <Image Include="imagens\Obstaculos\ParedeFlutuante.png">
+      <Filter>Arquivos de Recurso</Filter>
+    </Image>
+    <Image Include="imagens\Obstaculos\Plataforma.png">
+      <Filter>Arquivos de Recurso</Filter>
+    </Image>
+    <Image Include="imagens\Obstaculos\PlataformaMadeira.png">
+      <Filter>Arquivos de Recurso</Filter>
+    </Image>
+    <Image Include="imagens\Orc\AttackOrc.png">
+      <Filter>Arquivos de Recurso</Filter>
+    </Image>
+    <Image Include="imagens\Orc\DeathOrc.png">
+      <Filter>Arquivos de Recurso</Filter>
+    </Image>
+    <Image Include="imagens\Orc\RunOrc.png">
+      <Filter>Arquivos de Recurso</Filter>
+    </Image>
+    <Image Include="imagens\Orc\StoppedOrc.png">
+      <Filter>Arquivos de Recurso</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Font Include="fonte\menu.ttf">
+      <Filter>Arquivos de Recurso</Filter>
+    </Font>
+    <Font Include="fonte\menuColocacao.ttf">
+      <Filter>Arquivos de Recurso</Filter>
+    </Font>
+  </ItemGroup>
+</Project>
